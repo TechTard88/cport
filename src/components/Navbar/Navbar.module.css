@@ -1,0 +1,49 @@
+/* Navbar.module.css */
+
+/* AppBar styles */
+.appBar {
+    background-color: #2196f3;
+}
+
+/* Logo */
+.logo {
+    flex-grow: 1; /* Pushes the links to the right */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Desktop Navigation Links */
+.desktopNav {
+    display: none; /* Hidden by default */
+}
+
+/* Mobile Menu Button */
+.mobileMenuButton {
+    display: block; /* Visible by default for smaller screens */
+}
+
+/* Drawer styles */
+.drawer {
+    width: 250px;
+}
+
+/* Media Queries */
+
+/* For screens larger than 600px (tablet and above) */
+@media (min-width: 600px) {
+    .desktopNav {
+        display: flex; /* Show links on larger screens */
+        gap: 16px; /* Add spacing between links */
+    }
+
+    .mobileMenuButton {
+        display: none !important; /* Hide menu button on larger screens */
+    }
+}
+
+/* For screens larger than 1024px (desktop and above) */
+@media (min-width: 1024px) {
+    .logo {
+        font-size: 2rem; /* Increase font size for larger screens */
+    }
+}

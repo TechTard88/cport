@@ -1,0 +1,57 @@
+/* Timeline.module.css */
+
+/* Outer container to center the timeline */
+.timelineOuterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top to avoid squishing */
+    width: 100%;
+    height: calc(100vh - 64px); /* Subtract navbar height (64px for desktop) */
+    background-color: #f5f5f5; /* Light background */
+    overflow: hidden; /* Prevent scrolling outside the main container */
+}
+
+/* Inner timeline container */
+.timelineInnerContainer {
+    width: 70%; /* 70% of the screen width */
+    height: 100%; /* Full height for the scrollable container */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    display: block; /* Use block to avoid child elements being constrained */
+    background-color: #ffffff; /* White background for posts */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 16px; /* Padding inside the timeline */
+    box-sizing: border-box; /* Include padding in width and height */
+}
+
+/* Child element spacing for block display */
+.timelineInnerContainer > * {
+    margin-bottom: 16px; /* Add spacing between posts */
+}
+
+.timelineInnerContainer > *:last-child {
+    margin-bottom: 0; /* Remove spacing for the last child */
+}
+
+/* Optional: Customize scrollbar for better visuals */
+.timelineInnerContainer::-webkit-scrollbar {
+    width: 8px;
+}
+
+.timelineInnerContainer::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.timelineInnerContainer::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .timelineInnerContainer {
+        width: 100%; /* Full width on smaller screens */
+        border-radius: 0; /* Remove rounded corners for a cleaner look */
+        padding: 8px; /* Reduce padding for better content fit */
+    }
+}
