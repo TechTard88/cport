@@ -1,0 +1,254 @@
+[
+    {
+        "author": "Test User 1",
+        "user-id": "12345",
+        "time": "14:20",
+        "post": "Hello World, this is my first post!!!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 2",
+        "user-id": "67890",
+        "time": "14:20",
+        "post": "I got a long way to go but I will soon get there!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 3",
+        "user-id": "00000",
+        "time": "14:20",
+        "post": "Computers are the future!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 1",
+        "user-id": "12345",
+        "time": "14:20",
+        "post": "Hello World, this is my first post!!!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 2",
+        "user-id": "67890",
+        "time": "14:20",
+        "post": "I got a long way to go but I will soon get there!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 3",
+        "user-id": "00000",
+        "time": "14:20",
+        "post": "Computers are the future!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 1",
+        "user-id": "12345",
+        "time": "14:20",
+        "post": "Hello World, this is my first post!!!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 2",
+        "user-id": "67890",
+        "time": "14:20",
+        "post": "I got a long way to go but I will soon get there!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 3",
+        "user-id": "00000",
+        "time": "14:20",
+        "post": "Computers are the future!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 1",
+        "user-id": "12345",
+        "time": "14:20",
+        "post": "Hello World, this is my first post!!!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 2",
+        "user-id": "67890",
+        "time": "14:20",
+        "post": "I got a long way to go but I will soon get there!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 3",
+        "user-id": "00000",
+        "time": "14:20",
+        "post": "Computers are the future!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 1",
+        "user-id": "12345",
+        "time": "14:20",
+        "post": "Hello World, this is my first post!!!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 2",
+        "user-id": "67890",
+        "time": "14:20",
+        "post": "I got a long way to go but I will soon get there!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 3",
+        "user-id": "00000",
+        "time": "14:20",
+        "post": "Computers are the future!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 1",
+        "user-id": "12345",
+        "time": "14:20",
+        "post": "Hello World, this is my first post!!!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 2",
+        "user-id": "67890",
+        "time": "14:20",
+        "post": "I got a long way to go but I will soon get there!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 3",
+        "user-id": "00000",
+        "time": "14:20",
+        "post": "Computers are the future!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 1",
+        "user-id": "12345",
+        "time": "14:20",
+        "post": "Hello World, this is my first post!!!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 2",
+        "user-id": "67890",
+        "time": "14:20",
+        "post": "I got a long way to go but I will soon get there!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    },
+    {
+        "author": "Test User 3",
+        "user-id": "00000",
+        "time": "14:20",
+        "post": "Computers are the future!",
+        "reactions": {
+            "likes": 5,
+            "dislikes": 2,
+            "spam-reports": 0,
+            "shares": 1
+        }
+    }
+]
