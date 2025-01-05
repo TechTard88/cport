@@ -40,7 +40,7 @@ const Navbar = () => {
             <Toolbar>
                 {/* Logo */}
                 <Typography variant="h6" className={styles.logo}>
-                    MyLogo
+                    <img className={styles.cportLogo} alt="cport logo" src={`${process.env.PUBLIC_URL}/cport.png`} />
                 </Typography>
 
                 {/* Desktop Navigation */}
