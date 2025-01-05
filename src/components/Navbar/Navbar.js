@@ -78,7 +78,7 @@ const Navbar = () => {
                     <List>
                         {navLinks.map((link) => (
                             <ListItem key={link["text"]} disablePadding>
-                                <ListItemButton>
+                                <ListItemButton onClick={() => navigate(link["path"])}>
                                     <ListItemText primary={link["text"]} />
                                 </ListItemButton>
                             </ListItem>
