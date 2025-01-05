@@ -12,15 +12,28 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import styles from "./Navbar.module.css";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
     const [drawerOpen, setDrawerOpen] = useState(false);
+
+    const navigate = useNavigate();
 
     const toggleDrawer = (open) => () => {
         setDrawerOpen(open);
     };
 
-    const navLinks = ["Home", "About", "Services", "Contact"];
+    const navLinks = [
+        {
+            "text": "Home",
+            "path": "/"
+        },
+        {
+            "text": "Profile",
+            "path": "/profile"
+        }
+
+    ];
 
     return (
         <AppBar position="static" className={styles.appBar}>
@@ -33,8 +46,8 @@ const Navbar = () => {
                 {/* Desktop Navigation */}
                 <Box className={styles.desktopNav}>
                     {navLinks.map((link) => (
-                        <Button key={link} color="inherit" sx={{ marginRight: 2 }}>
-                            {link}
+                        <Button key={link["text"]} color="inherit" sx={{ marginRight: 2 }} onClick={() => navigate(link["path"])}>
+                            {link["text"]}
                         </Button>
                     ))}
                 </Box>
@@ -64,9 +77,9 @@ const Navbar = () => {
                 >
                     <List>
                         {navLinks.map((link) => (
-                            <ListItem key={link} disablePadding>
+                            <ListItem key={link["text"]} disablePadding>
                                 <ListItemButton>
-                                    <ListItemText primary={link} />
+                                    <ListItemText primary={link["text"]} />
                                 </ListItemButton>
                             </ListItem>
                         ))}

@@ -1,0 +1,78 @@
+.container {
+    position: relative;
+    display: flex;
+    height: 30%;
+}
+
+.imgBanner {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.userName {
+    position:absolute;
+    top: 5%;
+    left: 2%;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.userNameContainer {
+    padding: 6px;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+.profilePicCard {
+    position: absolute;
+    left: 40px;
+    bottom: -30%;
+    padding: 15px;
+    border-radius: 50%;
+    /* background-color: burlywood !important; */
+    background: conic-gradient(
+        #00ff55 0% 35%,
+        #4b4b4b 35% 90%,
+        #ff0000 90% 100%
+    );
+}
+
+.profilePic {
+    width: 180px !important;
+    height: 180px !important;
+}
+
+@media (max-width: 1200px) {
+    .profilePic {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .profilePicCard {
+        left: 20px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .profilePic {
+        width: 120px !important;
+        height: 120px !important;
+    }
+
+    .container {
+        height: 23%
+    }
+
+    .profilePicCard {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .profilePic {
+        width: 95px !important;
+        height: 95px !important;
+    }
+}

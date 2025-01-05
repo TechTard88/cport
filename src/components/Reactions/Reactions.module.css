@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+    border: 0.5px solid rgb(107, 107, 107);
+    border-radius: 8px;
+    width: 110%;
+    padding: auto;
+}
+
+.iconButton {
+    color: dimgrey !important; /* Makes the icons white */
+}
+
+.text {
+    color: white; /* Ensures text is also white */
+}

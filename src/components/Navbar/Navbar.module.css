@@ -2,7 +2,8 @@
 
 /* AppBar styles */
 .appBar {
-    background-color: #2196f3;
+    background-color: #000000 !important;
+    border-bottom: 0.5px solid rgb(107, 107, 107);
 }
 
 /* Logo */
@@ -30,7 +31,7 @@
 /* Media Queries */
 
 /* For screens larger than 600px (tablet and above) */
-@media (min-width: 600px) {
+@media (min-width: 900px) {
     .desktopNav {
         display: flex; /* Show links on larger screens */
         gap: 16px; /* Add spacing between links */

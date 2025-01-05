@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    height: 20%;
+    justify-content: right;
+}
+
+.bio {
+    align-content: center;
+    /* Not applicable here for flexbox, consider using justify-content/align-items */
+    width: 70%;
+    height: 100%;
+    padding-right: 3%;
+}
+
+.bioText {
+    padding-left: 10%;
+    color: aliceblue;
+}
+
+.timelineViewActionsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timelineViewActions {
+    padding-top: 5px;
+    margin: auto;
+    color: aliceblue;
+}
+
+.timelineViewActions:hover {
+    color: #979797;
+    cursor: pointer;
+}
+
+.divider {
+    border-color: rgb(107, 107, 107) !important;
+}
+
+.reputationText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:30%;
+}

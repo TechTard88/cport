@@ -1,0 +1,49 @@
+.reputationTextContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.badIcon {
+    font-size: 40px !important;
+    color: #ff0000;
+}
+
+.goodIcon {
+    font-size: 40px !important;
+    color: #00ff55;
+}
+
+@media (max-width: 600px) {
+    .badIcon {
+        font-size: 30px !important;
+    }
+    
+    .goodIcon {
+        font-size: 30px !important;
+    }
+
+    .reputationTextContainer {
+        flex-direction: column;
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 200px) {
+    .badIcon {
+        font-size: 15px !important;
+    }
+    
+    .goodIcon {
+        font-size: 15px !important;
+    }
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px;
+    color: aliceblue;
+}

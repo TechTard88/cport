@@ -16,7 +16,7 @@ export default function BasicPost({ post }) {
                     <Stack direction="row" spacing={2}>
                         <Avatar
                             alt={post['author']}
-                            src={`/profilePics/${post['user-id']}.jpg`}
+                            src={`${process.env.PUBLIC_URL}/profilePics/${post['user-id']}.jpg`}
                             className={styles.avatar}
                         />
                         <Typography
