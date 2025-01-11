@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Timeline.module.css';
 
-const Timeline = ({ children }) => {
+export default function Timeline ({ children }) {
     return (
         <div className={styles.timelineOuterContainer}>
             <div className={styles.timelineInnerContainer}>
@@ -16,5 +16,3 @@ const Timeline = ({ children }) => {
 Timeline.propTypes = {
     children: PropTypes.node.isRequired,
 };
-
-export default Timeline;

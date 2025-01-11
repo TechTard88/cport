@@ -31,7 +31,6 @@ const App = () => {
                             ))}
                         </Timeline>
                     }></Route>
-
                     <Route path='/profile' element={
                         <Profile />
                     }></Route>
