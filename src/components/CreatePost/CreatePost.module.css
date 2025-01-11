@@ -1,0 +1,18 @@
+.textField {
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+.submitButton {
+    background-color: rgb(184, 21, 21) !important;
+    margin-top: 5px !important;
+}
+
+.createPostContainer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: end;
+}
